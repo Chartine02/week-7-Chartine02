@@ -23,7 +23,25 @@
         </div>
     </nav>
 
-
+    <section id="home">
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Full Stack Conf</h1>
+                <p class="hero-subtitle">
+                    A One-Day Conference About All Things JavaScript
+                </p>
+                <div>
+                    <button class="btn btn-hero" data-bs-toggle="modal" data-bs-target="#registerModal">
+                        Register Now
+                    </button>
+                    <button class="btn btn-hero"
+                        onclick="document.getElementById('speakers').scrollIntoView({behavior: 'smooth'})">
+                        See Speakers
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 
