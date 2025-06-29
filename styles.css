@@ -1,6 +1,6 @@
 .hero-section {
     background: linear-gradient(135deg, #f4d03f, #f7dc6f);
-    min-height: 500px;
+    min-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
