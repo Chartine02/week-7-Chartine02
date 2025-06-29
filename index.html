@@ -308,6 +308,134 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="registerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register for Conference</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Hurry !</strong> Early bird registration ends in two days.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+    
+                    <form>
+                        <h6 class="mb-3">Basic Info.</h6>
+    
+                        <div class="mb-3">
+                            <label class="form-label">Name:</label>
+                            <input type="text" class="form-control" />
+                        </div>
+    
+                        <div class="mb-3">
+                            <label class="form-label">Email:</label>
+                            <input type="email" class="form-control" />
+                        </div>
+    
+                        <div class="mb-3">
+                            <label class="form-label">Job Role:</label>
+                            <select class="form-select">
+                                <option>Full Stack JS Developer</option>
+                                <option>Frontend Developer</option>
+                                <option>Backend Developer</option>
+                                <option>Mobile Developer</option>
+                            </select>
+                        </div>
+    
+                        <h6 class="mb-3">Which Topics Interest You Most?</h6>
+    
+                        <div class="mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="frameworks" />
+                                <label class="form-check-label" for="frameworks">JavaScript Frameworks</label>
+                            </div>
+                        </div>
+    
+                        <div class="mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="libraries" />
+                                <label class="form-check-label" for="libraries">JavaScript Libraries</label>
+                            </div>
+                        </div>
+    
+                        <div class="mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="nodejs" />
+                                <label class="form-check-label" for="nodejs">Node.js</label>
+                            </div>
+                        </div>
+    
+                        <div class="mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="buildtools" />
+                                <label class="form-check-label" for="buildtools">Build Tools</label>
+                            </div>
+                        </div>
+    
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="es2015" />
+                                <label class="form-check-label" for="es2015">ES2015</label>
+                            </div>
+                        </div>
+    
+                        <h6 class="mb-3">Payment Info.</h6>
+    
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Card Number:</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">Zip Code:</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">CVV:</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+    
+                        <div class="mb-3">
+                            <label class="form-label">Expiration Date:</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <select class="form-select">
+                                        <option>1 - January</option>
+                                        <option>2 - February</option>
+                                        <option>3 - March</option>
+                                        <option>4 - April</option>
+                                        <option>5 - May</option>
+                                        <option>6 - June</option>
+                                        <option>7 - July</option>
+                                        <option>8 - August</option>
+                                        <option>9 - September</option>
+                                        <option>10 - October</option>
+                                        <option>11 - November</option>
+                                        <option>12 - December</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <select class="form-select">
+                                        <option>2016</option>
+                                        <option>2017</option>
+                                        <option>2018</option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <button type="submit" class="btn btn-secondary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 
